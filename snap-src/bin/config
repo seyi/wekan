@@ -176,7 +176,7 @@ KEY_LDAP_BACKGROUND_SYNC_KEEP_EXISTANT_USERS_UPDATED="ldap-background-sync-keep-
 
 DESCRIPTION_LDAP_BACKGROUND_SYNC_IMPORT_NEW_USERS=""
 DEFAULT_LDAP_BACKGROUND_SYNC_IMPORT_NEW_USERS="false"
-KEY_LDAP_BACKGROUND_SYNC_IMPORT_NEW_USERS="ldap-background-sync-import-new-users" 
+KEY_LDAP_BACKGROUND_SYNC_IMPORT_NEW_USERS="ldap-background-sync-import-new-users"
 
 DESCRIPTION_LDAP_ENCRYPTION="If using LDAPS"
 DEFAULT_LDAP_ENCRYPTION="false"
@@ -265,3 +265,27 @@ KEY_LDAP_SYNC_GROUP_ROLES="ldap-sync-group-roles"
 DESCRIPTION_LDAP_DEFAULT_DOMAIN="The default domain of the ldap it is used to create email if the field is not map correctly with the LDAP_SYNC_USER_DATA_FIELDMAP"
 DEFAULT_LDAP_DEFAULT_DOMAIN=""
 KEY_LDAP_DEFAULT_DOMAIN="ldap-default-domain"
+
+DESCRIPTION_CUSTOM_COMPANY_NAME="custom company name: eg Company Ltd\n\t\tIf not defined default Wekan is used instead"
+DEFAULT_CUSTOM_COMPANY_NAME=""
+KEY_CUSTOM_COMPANY_NAME="custom-company-name"
+
+DESCRIPTION_CUSTOM_LOGIN_LOGO="custom login logo image URL: eg http://example.com/custom-login-logo.png or svg etc\n\t\tIf not defined default Wekan login logo is used instead"
+DEFAULT_CUSTOM_LOGIN_LOGO=""
+KEY_CUSTOM_LOGIN_LOGO="custom-login-logo"
+
+DESCRIPTION_CUSTOM_HEADER_LOGO="custom header logo image URL: eg http://example.com/custom-header-logo.png or svg etc\n\t\tIf not defined default Wekan header logo is used instead"
+DEFAULT_CUSTOM_HEADER_LOGO=""
+KEY_CUSTOM_HEADER_LOGO="custom-header-logo"
+
+DESCRIPTION_CUSTOM_SHORTCUT_ICON="custom shortcut icon image URL: eg http://example.com/custom-shortcut-icon.png or svg etc\n\t\tIf not defined default Wekan shortcut icon used instead"
+DEFAULT_CUSTOM_SHORTCUT_ICON=""
+KEY_CUSTOM_SHORTCUT_ICON="custom-shortcut-icon"
+
+DESCRIPTION_CUSTOM_APPLE_TOUCH_ICON="custom apple touch icon image URL: eg http://example.com/custom-apple-touch-icon.png or svg etc\n\t\tIf not defined default Wekan apple touch icon used instead"
+DEFAULT_CUSTOM_APPLE_TOUCH_ICON=""
+KEY_CUSTOM_APPLE_TOUCH_ICON="custom-apple-touch-icon"
+
+DESCRIPTION_CUSTOM_MANIFEST="custom manifest URL: eg http://example.com/custom-apple-touch-icon.png or svg etc\n\t\tIf not defined default Wekan apple touch icon used instead"
+DEFAULT_CUSTOM_MANIFEST=""
+KEY_CUSTOM_MANIFEST="custom-manifest"
